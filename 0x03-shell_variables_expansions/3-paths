@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -c $PATH
+find $PATH -type f -depth 1 |wc -l
